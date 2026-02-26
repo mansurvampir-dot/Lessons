@@ -11,7 +11,7 @@ public class search {
 
     }
     public static void task1 (int number) {
-        int[] numbers = {10,5,4,6,7,5,4,3,6,23,5,6,10,6,4,};
+        int[] numbers = {10,5,4,6,7,5,4,3,6,23,5,6,10,6,4,10};
         int counter = 0;
         for (int num : numbers){
             if (number == num){
