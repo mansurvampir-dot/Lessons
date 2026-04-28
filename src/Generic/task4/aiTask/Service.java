@@ -1,4 +1,4 @@
-package Generic.task4;
+package Generic.task4.aiTask;
 
 import java.util.HashSet;
 import java.util.Map;

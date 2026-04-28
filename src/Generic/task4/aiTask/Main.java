@@ -1,4 +1,4 @@
-package Generic.task4;
+package Generic.task4.aiTask;
 
 public class Main {
     public static void main(String[] args) {
