@@ -42,7 +42,6 @@ public class main {
 
         List<String> result = pathMetro(graf, "A", "E");
         System.out.println("Кратчайший путь:");
-        System.out.println(String.join(" -> ", result));
-        System.out.println("Количество станций: " + result.size());
+        System.out.println(result.size());
         }
 }
