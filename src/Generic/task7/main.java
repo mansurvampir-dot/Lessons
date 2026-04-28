@@ -9,7 +9,6 @@ public class main {
         Queue<String> queue = new ArrayDeque<>(100);
         queue.add(start);
         visited.add(start);
-
         while (!queue.isEmpty()){
             String current = queue.poll();
             if(current.equals(stop)){
