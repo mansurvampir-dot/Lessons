@@ -1,14 +1,16 @@
 package FUNCTIONAL_PROG.homeWork.task5;
 
 record Stats(long count, double sum, double min, double max) {
-    double avg() {
-        if (count==0){
-    return 0;}else{
-        return sum/count;}
-    }
-
     static Stats empty() {
         return new Stats(0, 0, Double.MAX_VALUE, Double.MIN_VALUE);
+    }
+
+    double avg() {
+        if (count == 0) {
+            return 0;
+        } else {
+            return sum / count;
+        }
     }
 
     Stats merge(double v) {
